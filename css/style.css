@@ -9732,7 +9732,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .cta-box.cta-box-primary {
-	background: rgba(33, 194, 248, 0.9);
+	background: rgb(146 221 248 / 72%);
 	color: #fff;
 }
 
