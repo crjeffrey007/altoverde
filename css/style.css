@@ -9786,7 +9786,7 @@ textarea.form-control ~ .rd-label {
 	bottom: 0;
 	padding: 0.625rem;
 	transition: padding .2s;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgb(146 221 248 / 72%);
 }
 
 .thumbnail-inner {
