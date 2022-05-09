@@ -9863,7 +9863,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .thumbnail.thumbnail-secondary .thumbnail-caption {
-	background: rgb(34 37 51 / 34%);
+	background: rgba(33, 194, 248, 0.8);
 }
 
 .thumbnail.thumbnail-secondary:hover {
