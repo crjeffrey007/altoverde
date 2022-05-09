@@ -9682,7 +9682,7 @@ textarea.form-control ~ .rd-label {
 	display: inline-block;
 	padding: 0.9375rem;
 	transition: .2s;
-	background: rgba(255, 255, 255, 0.9);
+	background: rgb(255 255 255 / 36%);
 	color: #222533;
 }
 
@@ -9732,7 +9732,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .cta-box.cta-box-primary {
-	background: rgba(33, 194, 248, 0.9);
+	background: rgb(255 255 255 / 36%);
 	color: #fff;
 }
 
@@ -9742,7 +9742,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .cta-box.cta-box-primary:hover {
-	background: rgba(34, 37, 51, 0.9);
+	background: rgb(255 255 255 / 36%);
 	color: #fff;
 }
 
