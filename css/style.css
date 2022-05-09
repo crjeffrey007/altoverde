@@ -9742,7 +9742,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .cta-box.cta-box-primary:hover {
-	background: rgba(34, 37, 51, 0.9);
+	background: rgb(146 221 248);
 	color: #fff;
 }
 
