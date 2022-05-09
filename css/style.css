@@ -9682,7 +9682,7 @@ textarea.form-control ~ .rd-label {
 	display: inline-block;
 	padding: 0.9375rem;
 	transition: .2s;
-	background: rgb(255 255 255 / 36%);
+	background: rgb(255 255 255 / 45%);
 	color: #222533;
 }
 
@@ -9742,7 +9742,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .cta-box.cta-box-primary:hover {
-	background: rgb(255 255 255 / 36%);
+	background: rgb(255 255 255 / 45%);
 	color: #fff;
 }
 
@@ -9772,6 +9772,7 @@ textarea.form-control ~ .rd-label {
 	background-size: cover;
 	transition: .2s;
 	color: #222533;
+	font-weight: 600;
 }
 
 .thumbnail:hover {
@@ -9786,7 +9787,7 @@ textarea.form-control ~ .rd-label {
 	bottom: 0;
 	padding: 0.625rem;
 	transition: padding .2s;
-	background: rgb(255 255 255 / 36%);
+	background: rgb(255 255 255 / 45%);
 }
 
 .thumbnail-inner {
