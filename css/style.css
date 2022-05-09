@@ -9788,6 +9788,7 @@ textarea.form-control ~ .rd-label {
 	padding: 0.625rem;
 	transition: padding .2s;
 	background: rgb(3 85 115 / 55%);
+	color: white;
 }
 
 .thumbnail-inner {
@@ -9801,8 +9802,8 @@ textarea.form-control ~ .rd-label {
 	font-size: 1.3125rem;
 	line-height: 1.2;
 	text-transform: uppercase;
-	color: white
-	text-shadow: 1px 1px 2px black}
+	color: white;
+	text-shadow: 1px 1px 2px black;
 
 .thumbnail-icon {
 	margin-left: 0.9375rem;
