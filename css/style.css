@@ -14593,12 +14593,10 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	clip: auto;
 }
 
-*{box-sizing:border-box;}
-
 
 		.social{
 			/*las imágenes usadas tienen width de 48px*/
-			width:48px;
+			width:32px;
 			position:fixed;
 			top:50px;
 			right:0;
