@@ -9787,7 +9787,7 @@ textarea.form-control ~ .rd-label {
 	bottom: 0;
 	padding: 0.625rem;
 	transition: padding .2s;
-	background: rgb(33 185 248 / 51%);
+	background: rgb(33 185 248 / 65%);
 }
 
 .thumbnail-inner {
@@ -9865,6 +9865,7 @@ textarea.form-control ~ .rd-label {
 
 .thumbnail.thumbnail-secondary .thumbnail-caption {
 	background: rgb(33 185 248 / 65%);
+	font-weight: bold;
 }
 
 .thumbnail.thumbnail-secondary:hover {
