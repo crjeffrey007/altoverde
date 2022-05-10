@@ -14594,24 +14594,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 
-		.social{
-			/*las imágenes usadas tienen width de 48px*/
-			width:32px;
-			position:fixed;
-			top:50px;
-			right:0;
-		}
-
-		/* Extra centrado vertical*/
-
-		.social{
-			/*border:1px solid #000;*/
-			top:50%;
-			height:205px;
-			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
-			margin-top:-100px;
-		}
-
                 .client-img {
                          transform: scale(1);
                          transition: .2s;
