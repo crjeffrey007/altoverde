@@ -14641,7 +14641,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     display: flex;
 }
 
-.social1
+.social1 {
     margin: auto;
     justify-content: center;
     display: flex;
