@@ -14631,3 +14631,18 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     margin: auto;
     justify-content: center;
 }
+
+.colombia {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.social1
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
