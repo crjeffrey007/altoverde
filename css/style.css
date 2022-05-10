@@ -9972,6 +9972,9 @@ textarea.form-control ~ .rd-label {
 /** @section Rights */
 .rights {
 	font-size: 0.8125rem;
+	display: flex;
+	margin: auto;
+	justify-content: center;	
 }
 
 /** @section Custom Link */
