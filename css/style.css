@@ -14613,3 +14613,21 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
         /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
 	margin-top:-100px;
 	}
+
+.info-heading1 {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2cc2f8;
+    margin-top: 25px;
+}
+.info-link1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
