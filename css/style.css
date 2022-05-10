@@ -9787,7 +9787,7 @@ textarea.form-control ~ .rd-label {
 	bottom: 0;
 	padding: 0.625rem;
 	transition: padding .2s;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgb(33 185 248 / 51%);
 }
 
 .thumbnail-inner {
@@ -9848,7 +9848,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .thumbnail.thumbnail-primary .thumbnail-caption {
-	background: rgba(33, 194, 248, 0.8);
+	background: rgb(33 185 248 / 51%);
 }
 
 .thumbnail.thumbnail-primary .thumbnail-icon {
@@ -9864,7 +9864,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .thumbnail.thumbnail-secondary .thumbnail-caption {
-	background: rgba(34, 37, 51, 0.8);
+	background: rgb(33 185 248 / 51%);
 }
 
 .thumbnail.thumbnail-secondary:hover {
