@@ -9848,7 +9848,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .thumbnail.thumbnail-primary .thumbnail-caption {
-	background: rgb(33 185 248 / 51%);
+	background: rgb(33 185 248 / 65%);
 }
 
 .thumbnail.thumbnail-primary .thumbnail-icon {
@@ -9864,7 +9864,7 @@ textarea.form-control ~ .rd-label {
 }
 
 .thumbnail.thumbnail-secondary .thumbnail-caption {
-	background: rgb(33 185 248 / 51%);
+	background: rgb(33 185 248 / 65%);
 }
 
 .thumbnail.thumbnail-secondary:hover {
