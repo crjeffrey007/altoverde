@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -62,41 +63,39 @@
             </div>
       <!--Contact Us-->
       <section class="section-sm bg-gray-100">
-        <div class="container">
-          <!--RD Mailform-->
-          <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-            <h2>Contáctanos</h2>
-            <div class="form-row row-10 offset-xs">
-              <div class="col-lg-4">
-                <div class="form-group">
-                  <label class="rd-label rd-label-lg" for="contact-name">Name:</label>
-                  <input class="form-control form-control-lg" id="contact-name" type="text" name="name" data-constraints="@Required">
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="form-group">
-                  <label class="rd-label rd-label-lg" for="contact-phone">Phone:</label>
-                  <input class="form-control form-control-lg" id="contact-phone" type="text" name="phone" data-constraints="@Required @PhoneNumber">
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="form-group">
-                  <label class="rd-label rd-label-lg" for="contact-email">Email:</label>
-                  <input class="form-control form-control-lg" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-group">
-                  <textarea class="form-control form-control-lg" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                  <label class="rd-label rd-label-lg" for="contact-message">Message:</label>
-                </div>
-              </div>
+   <div class="w-full max-w-xs">
+        <form id="form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Nombre
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="name" id="name" type="text" placeholder="Ingresa tu nombre" required>
             </div>
-            <div class="offset-sm">
-              <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Apellidos
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="lastname" id="lastname" type="text" placeholder="Ingresa tus apellidos" required>
             </div>
-          </form>
-        </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Correo
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="email" id="email" type="email" placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="flex items-center justify-between">
+                <button id="submit"
+                    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit">
+                    <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+                </button>
+            </div>
       </section>
         <!--Footer-->
       <div class="colombia">
