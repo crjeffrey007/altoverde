@@ -59,42 +59,45 @@
       <!--Google Map-->
       <div class="mapa">
               <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.915811507697!2d-75.170217!3d6.233521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb1a7bb62f02d5a7!2zNsKwMTMnNTYuOSJOIDc1wrAxMCcxMi40Ilc!5e0!3m2!1ses!2sbr!4v1652212440200!5m2!1ses!2sbr" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-            </div>
+            <p style="text-align: center;">Balcones de San Juan Cra 45 # 28 -79, Guatapé, Antioquia, Colombia</p>
+    </div>
       <!--Contact Us-->
-      <section class="section-sm bg-gray-101">
-   <div class="w-full max-w-xs">
-        <form id="form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-                    Nombre
-                </label>
-                <input
-                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    name="name" id="name" type="text" placeholder="Ingresa tu nombre" required>
+      <section class="section-sm bg-gray-100">
+        <div class="container">
+          <!--RD Mailform-->
+          <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+            <h2>Get in <span class="font-weight-light">Touch</span></h2>
+            <div class="form-row row-10 offset-xs">
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="rd-label rd-label-lg" for="contact-name">Nombre:</label>
+                  <input class="form-control form-control-lg" id="contact-name" type="text" name="name" data-constraints="@Required">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="rd-label rd-label-lg" for="contact-phone">Teléfono:</label>
+                  <input class="form-control form-control-lg" id="contact-phone" type="text" name="phone" data-constraints="@Required @PhoneNumber">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label class="rd-label rd-label-lg" for="contact-email">Email:</label>
+                  <input class="form-control form-control-lg" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <textarea class="form-control form-control-lg" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                  <label class="rd-label rd-label-lg" for="contact-message">Mensaje:</label>
+                </div>
+              </div>
             </div>
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-                    Apellidos
-                </label>
-                <input
-                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    name="lastname" id="lastname" type="text" placeholder="Ingresa tus apellidos" required>
+            <div class="offset-sm">
+              <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
             </div>
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-                    Correo
-                </label>
-                <input
-                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    name="email" id="email" type="email" placeholder="Ingresa tu correo" required>
-            </div>
-            <div class="flex items-center justify-between">
-                <button id="submit"
-                    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                    type="submit">
-                    <i class="fab fa-whatsapp"></i> Enviar WhatsApp
-                </button>
-            </div>
+          </form>
+        </div>
       </section>
         <!--Footer-->
       <div class="colombia">
